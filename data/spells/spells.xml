@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
 	<!-- Attack Spells -->
+	<instant group="attack" spellid="200" name="Massive Ice Strike" words="frigo" level="2" mana="20" range="2" blockwalls="1" cooldown="100" groupcooldown="100" needlearn="0" script="attack/frigo.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Master Sorcerer" />
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
 	<instant group="attack" spellid="62" name="Annihilation" words="exori gran ico" level="110" mana="300" premium="1" range="1" needtarget="1" needweapon="1" cooldown="30000" groupcooldown="4000" needlearn="0" script="attack/annihilation.lua">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" />
